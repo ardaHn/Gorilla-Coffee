@@ -3,4 +3,8 @@
     --primary-color-highlight: #233D54 !important;
     --bs-body-bg: #FBF0F6 !important;
     --bs-body-font-family: 'Montserrat' , sans serif !important;
-} !important
+} 
+
+.header {
+    z-index: 2;
+}
