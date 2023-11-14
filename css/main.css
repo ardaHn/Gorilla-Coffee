@@ -4,7 +4,20 @@
     --bs-body-bg: #FBF0F6 !important;
     --bs-body-font-family: 'Montserrat' , sans serif !important;
 } 
+/* OVERRIDE */
+
 
 .header {
     z-index: 2;
+}
+/* MAIN HEADER */
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 247, 231);
+    z-index: 4;
 }
